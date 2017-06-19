@@ -7,7 +7,6 @@ using Microsoft.Bot.Connector;
 
 namespace PortfolioBot
 {
-    // RENAME TO CHILD DIALOG OR SEPARATE WORK AND GREETING CLASSES. REFACTOR GREETNG AND FAREWELL METHODS
     [Serializable]
     public class ChildsDialog: BestMatchDialog<bool>
     {
