@@ -90,7 +90,7 @@ The current version supports the following features
 > - Create the following services using your Azure Portal account: a **LUIS Cognitive Service**, and a **Web App service**. These 2 services will host our LUIS and Bot Apps.
 > - Create a **LUIS app** at [LUIS](https://www.luis.ai/)
 > - Create a **bot app** at [Bot Framework](https://dev.botframework.com/)
-> - Add your **LUIS Cognitive Service** *key* to your **LUIS apps Azure account** and add it to your **LUIS app"" *endpoint key*. This connect your LUIS app to your **LUIS Cognitive Service** subscription. 
+> - Add your **LUIS Cognitive Service** *key* to your **LUIS apps Azure account** and add it to your **LUIS app** *endpoint key*. This connect your LUIS app to your **LUIS Cognitive Service** subscription. 
 > - Add your **Web app service** *url* to your **bot app**, and add your **bot app** *Microsoft app Id* and *password* to your **Web App Service** *App settings*. This will connect your **bot app** to your **Web App service**.  
 > - Add your **LUIS app** *Id* to your bot by referencing it from your **bot App** "settings". This will connect your **LUIS app** to your **bot app**.  
 > - Add your **bot app** *Microsoft app Id* and *password* to your Web.config local file in your cloned repo and push the change to your forked git repository. 
